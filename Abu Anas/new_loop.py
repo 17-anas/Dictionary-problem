@@ -63,17 +63,17 @@
 # print("reached") 
 
 
-x=int(input("Player 1 choice : ")) 
-N=int(input("How many times you can guess ? ")) 
-for i in range (N,0,-1):
-    number=int(input("Player 2 choice : ")) 
-    if x==number:
-        print("Right! Player 2 wins")
-        break
-    elif x!=number:
-        print(f"wrong!{i-1} choices left ")
-        if i==1:
-            print("Player 1 wins")
+# x=int(input("Player 1 choice : ")) 
+# N=int(input("How many times you can guess ? ")) 
+# for i in range (N,0,-1):
+#     number=int(input("Player 2 choice : ")) 
+#     if x==number:
+#         print("Right! Player 2 wins")
+#         break
+#     elif x!=number:
+#         print(f"wrong!{i-1} choices left ")
+#         if i==1:
+#             print("Player 1 wins")
  
 
 
@@ -94,7 +94,33 @@ for i in range (N,0,-1):
 
 # number=list(input())
 # for i in number:
-#     print(*number[::-1],end="")
+#     print(*number[::-1],sep="") 
 #     break   
 
+# Write a program (WAP) that will give the sum of first Nth
+# terms for the following series.
+
+# N=int(input())
+# lst=[] 
+# for i in range(1,N+1):
+#     if i%2==0:
+#         lst.append(-i)
+#     else:
+#         lst.append(i)
+# sum=0 
+# for j in lst:
+#     sum+=j 
+# print(f"Result:{sum}")  
+
+N=int(input()) 
+fact=1 
+for i in range (1,N+1):
+   fact*=i
+print(fact)
+ 
+
+
+
+    
+    
 
