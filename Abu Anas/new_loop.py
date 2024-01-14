@@ -112,14 +112,41 @@
 #     sum+=j 
 # print(f"Result:{sum}")  
 
-N=int(input()) 
-fact=1 
-for i in range (1,N+1):
-   fact*=i
-print(fact)
+
+# Write a program (WAP) that will print the factorial (N!) of a given number N. Please see
+# the sample input output.
+# N=int(input()) 
+# fact=1 
+# for i in range (1,N+1):
+#    fact*=i
+# print(fact)
  
+# Write a program (WAP) that will print Fibonacci series upto Nth terms.
+# a=1
+# b=1
+# N=int(input())
+# if N==1:
+#    print(a)
+# else:
+#    print(a,end=",") 
+#    print(b,end=",") 
+#    for i in range(2,N):
+#       c=a+b
+#       a=b
+#       b=c 
+#       print(c,end=",") 
 
-
+## Prime Number is a number That is only divisible By 1 and the number itself .
+# num=int(input())
+# key=True
+# for i in range(2,num):
+#    if num%i==0:
+#       key=False 
+#       break
+# if key==True:
+#    print("Prime") 
+# else:
+#    print("Not prime") 
 
     
     
