@@ -149,5 +149,13 @@
 #    print("Not prime") 
 
     
-    
+input1=input() 
+input2=input() 
+new2=list(input2) 
+del new2[-1]
+count=0
+for i in new2:
+    if i in input1:
+        count+=1 
+print(count) 
 
